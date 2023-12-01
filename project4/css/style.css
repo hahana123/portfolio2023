@@ -1,0 +1,80 @@
+/* 공통 */
+*{padding: 0; margin: 0;}
+ul{list-style: none;}
+.inner{width: 1200px; margin: 0 auto;}
+#wrap{width: 100%;}
+
+/* 헤더 */
+#header{width: 100%;}
+.top_green{width: 100%; height: 40px; background-color: #024a2c; color: #fff; line-height: 40px;}
+.green_left{width: 300px; float: left;}
+.green_left>li{float: left;}
+.green_right{width: 111px; float: right;}
+.green_right>li{float:left;}
+.green_left>li:before{display: inline-block; content: "|"; padding: 0 10px;}
+.green_left>li:nth-child(1):before{display: none;}
+.green_right>li:before{display: inline-block; content: "|"; padding: 0 10px;}
+.green_right>li:nth-child(1):before{display: none;}
+.green_right>li>img{vertical-align: middle;}
+
+
+.top_white{width: 100%; height: 76px; line-height: 76px;}
+.logo{width: 115px; height: 76px; float: left;}
+.logo>img{width: 100%; padding-top: 15px;}
+.top_white>.inner{position: relative;}
+.menu{position: absolute; right: 166px;}
+.menu>li{float: left; padding-left: 100px;}
+.category{width: 76px; height: 76px; background-color: #037a4e; float: right; text-align: center;}
+
+.green_left:after{clear: both; display: block; content: "";}
+.green_right:after{clear: both; display: block; content: "";}
+.inner:after{clear: both; display: block; content: "";}
+.menu:after{clear: both; display: block; content: "";}
+
+/* 메인이미지 */
+#mainimg{position: relative; width: 100%; height: 592px; background-image: url(../img/main_img.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+.down_btn{position: absolute; width: 77px; height: 77px; margin: 0 auto; left: 0; right: 0; bottom: -5%; border-radius: 100px; box-shadow: 0px 5px 5px #999;}
+
+/* 콘텐츠 */
+.box1{width: 100%; height: 420px; background-color: #f6ede1; padding-top: 100px;}
+.list{width: calc(100%/4); float: left; text-align: center;}
+.list>h3{font-size: 25px; padding: 15px 0;}
+.list>p{width: 70%; margin: 0 auto; line-height: 25px; letter-spacing: -1.6px; font-size: 13px;}
+.list>p:nth-child(4){text-decoration: underline;}
+.inner:after{clear: both; display: block; content: "";}
+
+.box2{width: 100%; height: 730px; margin-top: 100px;}
+.box2>.inner>h2{text-align: center; padding: 50px 0; font-size: 28px;}
+
+.set_left{width: 50%; height: 401px; float: left;}
+.set_left>img{width: 100%; height: 100%; box-shadow: 2px 2px 5px #999; border-radius: 15px;}
+
+.set_cen{width: 24%; float: left; margin-left: 1%;}
+.green{width: 100%; height: 195px; background-color: #c1e8de; margin-bottom: 10px; border-radius: 15px; background-image: url(../img/img_s1.png); background-repeat: no-repeat; background-position: 95% 90%;}
+.green>div{padding: 30px;}
+.green>div>h3{padding-bottom: 15px; font-size: 21px;}
+.green>div>p{padding-bottom: 20px; font-size: 13px; line-height: 20px;}
+.orange{width: 100%; height: 195px; background-color: #f6dfca; border-radius: 15px; background-image: url(../img/img_s2.png); background-repeat: no-repeat; background-position: 95% 95%;}
+.orange>div{padding: 30px;}
+.orange>div>h3{padding-bottom: 15px; font-size: 21px;}
+.orange>div>p{padding-bottom: 20px; font-size: 13px; line-height: 20px;}
+
+.set_right{width: 23.3%; height: 399px; float: right; margin-left: 1%; background-color: #fff; border: 1px solid #c4c4c4; border-radius: 15px; box-shadow: 2px 2px 5px #999;}
+.set_right>div{padding: 30px;}
+.set_right>div>h3{padding-bottom: 20px; font-size: 20px;}
+.set_right>div>p{padding-bottom: 10px;}
+.set_right>div>h3>span{font-size: 18px; letter-spacing: -1.3px;}
+.set_right>div>P:nth-child(3),.set_right>div>P:nth-child(4),.set_right>div>P:nth-child(7),.set_right>div>P:nth-child(8){font-size: 13PX;}
+.line{width: 100%; border-bottom: 1px solid #ccc; margin: 25PX 0 30PX;}
+.more{padding-top: 15px; text-decoration: underline;}
+.box2_set:after{clear: both; display: block; content: "";}
+
+/* 푸터 */
+#footer{color: #fff;}
+
+.footer_top{width: 100%; height: 54px; line-height: 54px; background-color: #00512f;}
+.footer_top>.inner>ul>li{float: left; padding-right: 50px;}
+.footer_top>.inner>ul:after{clear: both; display: block; content: "";}
+
+.footer_bottom{width: 100%; height: 130px; background-color: #023e25; padding-top: 30px; line-height: 25px; font-weight: 600; letter-spacing: 0.5px;}
+.footer_bottom>.inner>p:nth-child(1){font-size: 14px; padding-bottom: 10px; font-weight: 100; line-height: 22px; letter-spacing: 0;  letter-spacing: -0.5px;}
