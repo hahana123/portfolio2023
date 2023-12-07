@@ -8223,7 +8223,8 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-brand {
     color: #fff; font-family: centurygothic; }
     .ftco-navbar-light .navbar-brand span {
-      font-size: 15px; }
+      font-size: 15px; 
+    font-family: centurygothic;}
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
