@@ -5,6 +5,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /* 추가 */
+@font-face {font-family: 'centurygothic';
+  src: url("../fonts/century_gothic/GOTHIC.TTF") format("truetype");}
+@font-face {font-family: 'segoeui';
+  src: url("../fonts/segoeui/segoeui.ttf") format("truetype");}
+
+* {font-family: segeui;}
+
 .home-slider .owl-stage{transform:none!important}
 .home-slider .owl-nav{display: none;}
 .home-slider .owl-dots{display: none;}
@@ -15,6 +22,7 @@ background-image: url(../images/bg_1.jpg);
 padding-top: calc(800 / 1920 * 100%);
     height: 0;
 } 
+
 
 
 :root {
@@ -8214,7 +8222,7 @@ h1, h2, h3, h4, h5,
       top: 0;
       padding: 10px 15px; } }
   .ftco-navbar-light .navbar-brand {
-    color: #fff; font-family: Century Gothic; }
+    color: #fff; font-family: centurygothic; }
     .ftco-navbar-light .navbar-brand span {
       font-size: 15px; }
   @media (max-width: 991.98px) {
@@ -8228,7 +8236,7 @@ h1, h2, h3, h4, h5,
     padding-right: 20px;
     color: rgba(255, 255, 255, 0.9);
     /* font-weight: 600; */
-    font-family: Century Gothic;
+    font-family: centurygothic;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
       color: #fff; }
@@ -10133,14 +10141,14 @@ textarea.form-control {
 .wid{font-family: Segoe UI; font-size: 40px;}
 .widbtn{font-size: 18px;}
 .instagram{margin-top: 200px;}
-.pofo{font-size: 40px; font-family: Century Gothic; margin-bottom: 100px; color: #E14287;}
+.pofo{font-size: 40px; font-family: centurygothic; margin-bottom: 100px; color: #E14287;}
 .etccc{margin-top: 0;     max-width: 1140px;
   margin: 0 auto; display: flex;}
 .etc{padding: 0; position: relative; width: 100%; display: block; padding-bottom: 1rem !important;}
 .et{padding-bottom: 15px;}
 .ba{padding: 15px;}
-.footer_text{text-align: center; font-size: 20px; font-family: Century Gothic;}
-.Copyright{font-size: 13px; font-family: Century Gothic;}
+.footer_text{text-align: center; font-size: 20px; font-family: centurygothic;}
+.Copyright{font-size: 13px; font-family: centurygothic;}
 .Visual_bottom{padding-bottom: 50px;}
 
 /* 웹속지 */
@@ -10150,6 +10158,6 @@ textarea.form-control {
 .site_btn{width: 100px; height: 50px; border: 1px solid #fff; border-radius: 100px; line-height: 50px; margin-bottom: 30px;}
 .w_s_btn{color: #fff; font-size: 20px;}
 .site_btn:hover{background-color: rgba(255, 255, 255, 0.2);}
-.a_t{color: #E14287;}
+.a_t{color: #E14287; font-family: centurygothic;}
 .websub>.overlay>h1{color: #fff; text-align: center; line-height: 9;}
 .websub>.overlay>h1>span{font-size: 15px;}
